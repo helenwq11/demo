@@ -1,0 +1,84 @@
+/*基本框架*/
+*{
+	padding:0;
+	margin:0;
+}
+.wrap{
+	margin:0 auto;
+	width:1000px;
+	position:relative;
+}
+.clearfix{
+	clear:both;
+	overflow:hidden;
+	zoom:1;
+}
+.top{
+	background-color:#f5f5f5;
+	height:30px;
+}
+.header{
+	height:92px;
+}
+.nav{
+	height:36px;
+	background-color:#60bff2;
+}
+.banner{
+	width:802px;
+	margin:0 auto;
+	height:414px;
+	padding:9px 0 0 198px;
+}
+.banner-slider{
+	float:left;
+	width:544px;
+	height:414px;
+	position:relative;
+}
+.banner-search{
+	float:right;
+	width:250px;
+	height:255px;
+	background-color:#eee;
+}
+.banner-help{
+	float:right;
+	width:250px;
+	height:146px;
+	background-color:pink;
+	margin-top:12px;
+}
+.content{
+	padding:10px 0 38px 0;
+	}
+.content-tab{
+	float:left;
+	width:742px;
+	height:490px;
+	background-color: gainsboro;
+}
+.content-news,.content-close{
+	float:right;
+	width:248px;
+	height:236px;
+	border:1px solid #ccc;
+	
+}
+.content-close{
+	margin-top:12px;
+	border-color:gainsboro;
+}
+.footer{
+	height: 70px;
+	padding: 25px 0;
+	background-color: #eceef2;
+	text-align: center;
+	line-height:70px;
+}
+
+
+
+
+
+
